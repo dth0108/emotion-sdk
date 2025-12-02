@@ -1,0 +1,64 @@
+{
+  "name": "@healside/emotion-sdk",
+  "version": "1.0.0-beta.1",
+  "description": "AI-powered emotion detection SDK for e-commerce. Detect user emotions in real-time and personalize the shopping experience.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "emotion",
+    "ai",
+    "ecommerce",
+    "react",
+    "personalization",
+    "emotion-detection",
+    "sentiment-analysis",
+    "behavior-tracking",
+    "multimodal",
+    "machine-learning"
+  ],
+  "author": "Healside <healside.official@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dth0108/emotion-sdk"
+  },
+  "homepage": "https://github.com/dth0108/emotion-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/dth0108/emotion-sdk/issues",
+    "email": "healside.official@gmail.com"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "rollup": "^4.9.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+
